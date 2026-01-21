@@ -1,13 +1,19 @@
-# NiceMed
+<p align="center">
+  <img src="extension/icons/icon-128.png" width="128" height="128" alt="NiceMed Icon">
+</p>
 
-NiceMed 是一个 Firefox 浏览器插件，在访问 PubMed 时自动显示期刊的分区和影响因子，在 Google Scholar 提供相对便捷的 PubMed 跳转。
+<h1 align="center">NiceMed</h1>
+
+<p align="center">
+  NiceMed 是一个 Firefox 浏览器插件，在访问 PubMed 时自动显示期刊的分区和影响因子，在 Google Scholar 提供相对便捷的 PubMed 跳转。
+</p>
 
 > [!NOTE]
 > **声明**: 此插件完全由 **Gemini 3.0 Pro** 和 **Claude Opus 4.5** 编写，无任何人工手搓代码成分，放心食用。
 
 ## 功能特性
 
-### PubMed 页面
+### PubMed
 在搜索结果和文章页面显示以下徽章：
 - **期刊名** - 格式化显示
 - **JCR 分区** (Q1-Q4) - 彩色标签
@@ -18,8 +24,15 @@ NiceMed 是一个 Firefox 浏览器插件，在访问 PubMed 时自动显示期�
 - **🌊 MEGA** - Mega-Journal 标识
 - **🇨🇳 CN** - 中国 SCI 期刊支持计划
 
-### Google Scholar 页面
+### Google Scholar
 - **Search in PubMed** 按钮 - 在每个搜索结果旁添加浅红色边框按钮，点击可直接跳转到 PubMed 搜索该文章
+
+## 效果预览
+
+![PubMed Screenshot](screenshot/screenshot1.png)
+
+
+![Scholar Screenshot](screenshot/screenshot2.png)
 
 ## 安装步骤
 
@@ -74,6 +87,9 @@ nicemed/
 │   │   └── badge.css         # 徽章样式
 │   └── data/
 │       └── journals.json     # 期刊数据库
+├── screenshot/
+│   ├── screenshot1.png
+│   └── screenshot2.png
 └── scripts/
     └── convert-csv.js        # CSV 转换脚本
 ```
